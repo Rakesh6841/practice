@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Instagram Likes Predictor</title>
+</head>
+
+<body>
+    <h1>Instagram Likes Predictor</h1>
+    <form action="/predict" method="POST">
+
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="category" required><br><br>
+
+        <label for="time_posted">Time Posted:</label>
+        <input type="number" id="time_posted" name="time_posted" required><br><br>
+
+        <label for="num_followers">Number of Followers:</label>
+        <input type="number" id="num_followers" name="num_followers" required><br><br>
+
+        <label for="num_posts">Number of Posts:</label>
+        <input type="number" id="num_posts" name="num_posts" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+
+</html>
